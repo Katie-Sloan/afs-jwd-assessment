@@ -1,3 +1,4 @@
+import { ArrayType } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import * as data from 'src/assets/mock_data_(2).json';
 
@@ -12,7 +13,7 @@ export class CustomersComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log("Here is all the data: ", this.listData);
+    console.log("Here is all the listData: ", this.listData);
   }
 
 }
